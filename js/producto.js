@@ -62,7 +62,7 @@ function checkAdminAccess() {
    // Verificar si el usuario está logueado y si es admin
    if (!loggedInUser || loggedInUser !== 'admin') {
      alert('Acceso denegado. Solo el administrador puede acceder a esta página.');
-     window.location.href = '../HTML/index.html';  
+     window.location.href = 'index.html';  
    }
  }
  
