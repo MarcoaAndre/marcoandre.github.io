@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const loggedInUser = localStorage.getItem('loggedInUser');
           if (!loggedInUser) {
               alert('Debes iniciar sesión para realizar una compra.');
-              window.location.href = '../HTML/login.html'; 
+              window.location.href = 'login.html'; 
               return;
           }
 
